@@ -27,7 +27,7 @@
         padding: 0;
     }
     .footer-info{
-        height: 50vh;
+        height: 30vh;
         width: 100vw;
         /* here color would be changed as per color theme */
         background-color:#eae2b7;
@@ -55,7 +55,7 @@
         object-fit: cover;
         padding:1vh 5vw ;
         margin-bottom: 2vh;
-        /* display: none; */
+        display: none;
     }
     /* arun description */
     .footer-left-info p{
@@ -109,7 +109,10 @@
         /* margin-right: 10vw; */
         display: flex;
         flex-direction: column;
-        /* background-color: burlywood; */
+        background-color: burlywood;
+        justify-content: center;
+        align-items:center ;
+        margin-left: 2.5vw;
     }
     /* footer-right-part divided tow part 1-uppper 2-lower */
     /* upper-part contains product and contact us */
@@ -185,8 +188,8 @@
     .lower-part{
         height: 45% ;
         width: 100%;
-        padding: 2vh 2vw;
-        /* background-color: aquamarine; */
+        /* padding: 2vh 2vw; */
+        background-color: aquamarine;
         display: flex;
         flex-direction: column;
         justify-content: center;
