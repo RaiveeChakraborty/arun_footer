@@ -48,7 +48,7 @@
         align-items: center;
     }
     /* arun-logo */
-    .footer-left-info img{
+/*     .footer-left-info img{
         height: 14vh;
         width: 45vw;
        
@@ -56,7 +56,19 @@
         padding:1vh 5vw ;
         margin-bottom: 2vh;
         display: none;
-    }
+    } */
+   .footer-left-info img{
+      height: 12vh;
+        width: 42vw;
+        object-fit: cover;
+        padding: 1vh 5vw;
+        margin-bottom: 2vh;
+        /* display: none; */
+        min-height: 10vh;
+        min-width: 30vw;
+        margin-right: 220px;
+        margin-bottom: 50px;
+   }
     /* arun description */
     .footer-left-info p{
         width: 75%;
