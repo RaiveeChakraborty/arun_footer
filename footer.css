@@ -29,8 +29,8 @@ footer{
     height: 40vh;
     width: 100vw;
     /* here color would be changed as per color theme */
-    /* background-color:#eae2b7; */
-    background-color: rgb(214, 194, 8);
+    background-color:#eae2b7;
+    /* background-color: rgb(214, 194, 8); */
     display: flex;
     justify-content: space-between;
     align-items: flex-start;

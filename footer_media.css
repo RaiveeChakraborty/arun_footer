@@ -109,7 +109,7 @@
         /* margin-right: 10vw; */
         display: flex;
         flex-direction: column;
-        background-color: burlywood;
+        /* background-color: burlywood; */
         justify-content: center;
         align-items:center ;
         margin-left: 2.5vw;
@@ -189,7 +189,7 @@
         height: 45% ;
         width: 100%;
         /* padding: 2vh 2vw; */
-        background-color: aquamarine;
+        /* background-color: aquamarine; */
         display: flex;
         flex-direction: column;
         justify-content: center;
