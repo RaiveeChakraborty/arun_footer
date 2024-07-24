@@ -1,4 +1,4 @@
-@media (max-width:500px) {
+@media only screen and  (max-width:500px) {
     *{
         margin: 0;
         padding: 0;
@@ -48,17 +48,15 @@
         align-items: center;
     }
     /* arun-logo */
-/*     .footer-left-info img{
-        height: 14vh;
+    .footer-left-info img{
+        /* height: 14vh;
         width: 45vw;
        
         object-fit: cover;
         padding:1vh 5vw ;
         margin-bottom: 2vh;
-        display: none;
-    } */
-   .footer-left-info img{
-      height: 12vh;
+        display: none; */
+        height: 12vh;
         width: 42vw;
         object-fit: cover;
         padding: 1vh 5vw;
@@ -66,9 +64,9 @@
         /* display: none; */
         min-height: 10vh;
         min-width: 30vw;
-/*         margin-right: 220px; */
+       
         margin-bottom: 50px;
-   }
+    }
     /* arun description */
     .footer-left-info p{
         width: 75%;
@@ -242,6 +240,384 @@
     }
     .copyright-part h3{
         font-size: 2.5vw;
+        font-weight: 500;
+    
+    }
+}
+@media only screen and (min-width:768px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html,body{
+        height: 100%;
+        width: 100%;
+    }
+    /* this section should be removed */
+    section{
+        height: 100vh;
+        width: 100vw;
+        background-color: #fff;
+    }
+    /* footer start */
+    footer{
+        height: fit-content;
+        width: 100vw;
+        /* background-color: #f0d005; */
+        background-color: rgb(133, 222, 66);
+    }
+    .svg_upper_footer {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    .footer-info{
+        height: 40vh;
+        width: 100vw;
+        /* here color would be changed as per color theme */
+        background-color:#eae2b7;
+        /* background-color: rgb(214, 194, 8); */
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    /* footer-left-part */
+    .footer-left-info{
+        height: 100%;
+        width: 20%;
+        padding-left:1vw ;
+    }
+    /* arun-logo */
+    .footer-left-info img{
+        height: 13vh;
+        width: 18vw;
+        object-fit: cover;
+        padding:1vh 1vw ;
+    }
+    /* arun description */
+    .footer-left-info p{
+        width: 75%;
+        font-size: 0.8vw;
+        letter-spacing: 0.11vw;
+        padding-left: 1vw;
+        font-weight: 100;
+        color: #000;
+        display: none;
+    }
+    
+    /* footer-middle-part */
+    .footer-middle-info{
+        height: 100%;
+        width: 20%;
+    }
+    
+    .footer-middle-info h3{ 
+       width: fit-content;
+        font-size: 1.5vw;
+        font-weight: 500;
+        margin-bottom: 1vh;
+        margin-left: 2vw;
+        border-bottom: 0.1vw solid transparent;
+        transform: all linear 0.5s;
+    }
+    .footer-middle-info h3:hover{
+        border-bottom: 0.1vw solid black;
+    }
+    
+    /* footer-right-part comtains product contact and followus(which is in thw lower part od the div) */
+    .footer-right-info{
+        height: 100%;
+        width: 40%;
+        margin-right: 10vw;
+        display: flex;
+        flex-direction: column;
+    }
+    /* footer-right-part divided tow part 1-uppper 2-lower */
+    /* upper-part contains product and contact us */
+    .upper-part{
+        height: 40%;
+        width: 100%;
+        display: flex;
+    }
+    .upper-part div{
+        height: 100%;
+        width: 50%;
+    }
+    .footer-right-info .part1{
+        padding: 1vh 2vw;
+    }
+    /* this a is for all a tag in the footer */
+    a{
+        text-decoration: none;
+        color: black;
+    } 
+    .footer-right-info .part1 h3{
+        width: fit-content;
+        font-size: 1.5vw;
+        font-weight: 500;
+        margin-bottom: 1vh;
+        border-bottom: 0.1vw solid transparent;
+        transform: all linear 0.5s;
+    }
+    .footer-right-info .part1 h3:hover{
+        border-bottom: 0.1vw solid black;
+    }
+    .footer-right-info .part1 h6{
+        font-size: 1.3vw;
+        font-weight: 400;
+        color:black;
+        word-spacing: 0.2vw;
+     }
+    .footer-right-info .part2{
+        padding: 1vh 1vw;
+    } 
+    .footer-right-info .part2 h3{
+        width: fit-content;
+        font-size: 1.5vw;
+        font-weight: 500;
+        margin-bottom: 1vh;
+        border-bottom: 0.1vw solid transparent;
+        transform: all linear 0.5s;
+    }
+    .footer-right-info .part2 h3:hover{
+        border-bottom: 0.1vw solid black;
+    }
+    .footer-right-info .part2 h6{
+        font-size: 1.1vw;
+        font-weight: 400;
+        color: black;
+        margin-bottom: 1vh;
+    }
+    /* *****lower-part of right-footer-part  contains follow us*/
+    .lower-part{
+        width: 50%;
+        padding: 0vh 2vw;
+        /* padding-bottom: 5vh; */
+    }
+    .footer-right-info .icons{
+        display: flex;
+    
+    }
+    .footer-right-info .icons h6{
+       font-size: 2.2vw;
+       padding: 0.5vh 0.4vw;
+       color: black;
+       font-weight: 400;
+       border: 0.1vw solid transparent;
+       border-radius: 50%;
+       margin-right: 0.2vw;
+       transform: all ease 0.5s;
+    }
+    .footer-right-info .icons h6:hover{
+        border: 0.1vw solid black;
+    }
+    .footer-right-info .lower-part h3{
+        font-size: 1.5vw;
+        font-weight: 500;
+        margin-bottom: 1vh;
+        padding-left: 0.5vw;
+    }
+    /* copyright-part */
+    .copyright-part{
+      height: 6vh;
+      width: 100vw;
+      background-color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .copyright-part h3{
+        font-size: 1.5vw;
+        font-weight: 500;
+    
+    }
+}
+@media only screen and (min-width:992px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html,body{
+        height: 100%;
+        width: 100%;
+    }
+    /* this section should be removed */
+    section{
+        height: 100vh;
+        width: 100vw;
+        background-color: #fff;
+    }
+    /* footer start */
+    footer{
+        height: fit-content;
+        width: 100vw;
+        /* background-color: #f0d005; */
+        background-color: rgb(133, 222, 66);
+    }
+    .svg_upper_footer {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    .footer-info{
+        height: 40vh;
+        width: 100vw;
+        /* here color would be changed as per color theme */
+        background-color:#eae2b7;
+        /* background-color: rgb(214, 194, 8); */
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    /* footer-left-part */
+    .footer-left-info{
+        height: 100%;
+        width: 20%;
+        padding-left:1vw ;
+    }
+    /* arun-logo */
+    .footer-left-info img{
+        height: 38%;
+        width: 59%;
+        object-fit: cover;
+        padding:1vh 1vw ;
+    }
+    /* arun description */
+    .footer-left-info p{
+        width: 10vw;
+        
+        font-size: 0.9vw;
+        letter-spacing: 0vw;
+        padding-left: 1vw;
+        font-weight: 100;
+        color: #000;
+        display: initial;
+    }
+    
+    /* footer-middle-part */
+    .footer-middle-info{
+        height: 100%;
+        width: 20%;
+    }
+    
+    .footer-middle-info h3{ 
+       width: fit-content;
+        font-size: 1.2vw;
+        font-weight: 500;
+        margin-bottom: 1vh;
+        margin-left: 2vw;
+        border-bottom: 0.1vw solid transparent;
+        transform: all linear 0.5s;
+    }
+    .footer-middle-info h3:hover{
+        border-bottom: 0.1vw solid black;
+    }
+    
+    /* footer-right-part comtains product contact and followus(which is in thw lower part od the div) */
+    .footer-right-info{
+        height: 100%;
+        width: 40%;
+        margin-right: 10vw;
+        display: flex;
+        flex-direction: column;
+    }
+    /* footer-right-part divided tow part 1-uppper 2-lower */
+    /* upper-part contains product and contact us */
+    .upper-part{
+        height: 60%;
+        width: 100%;
+        display: flex;
+    }
+    .upper-part div{
+        height: 100%;
+        width: 50%;
+    }
+    .footer-right-info .part1{
+        padding: 1vh 2vw;
+    }
+    /* this a is for all a tag in the footer */
+    a{
+        text-decoration: none;
+        color: black;
+    } 
+    .footer-right-info .part1 h3{
+        width: fit-content;
+        font-size: 1.2vw;
+        font-weight: 500;
+        margin-bottom: 1vh;
+        border-bottom: 0.1vw solid transparent;
+        transform: all linear 0.5s;
+    }
+    .footer-right-info .part1 h3:hover{
+        border-bottom: 0.1vw solid black;
+    }
+    .footer-right-info .part1 h6{
+        font-size: 1.1vw;
+        font-weight: 400;
+        color:black;
+        word-spacing: 0.2vw;
+     }
+    .footer-right-info .part2{
+        padding: 1vh 2vw;
+    } 
+    .footer-right-info .part2 h3{
+        width: fit-content;
+        font-size: 1.2vw;
+        font-weight: 500;
+        margin-bottom: 1vh;
+        border-bottom: 0.1vw solid transparent;
+        transform: all linear 0.5s;
+    }
+    .footer-right-info .part2 h3:hover{
+        border-bottom: 0.1vw solid black;
+    }
+    .footer-right-info .part2 h6{
+        font-size: 0.85vw;
+        font-weight: 400;
+        color: black;
+        margin-bottom: 1vh;
+    }
+    /* *****lower-part of right-footer-part  contains follow us*/
+    .lower-part{
+        width: 50%;
+        padding: 2vh 2vw;
+    }
+    .footer-right-info .icons{
+        display: flex;
+    
+    }
+    .footer-right-info .icons h6{
+       font-size: 1.5vw;
+       padding: 0.5vh 0.4vw;
+       color: black;
+       font-weight: 400;
+       border: 0.1vw solid transparent;
+       border-radius: 50%;
+       margin-right: 0.2vw;
+       transform: all ease 0.5s;
+    }
+    .footer-right-info .icons h6:hover{
+        border: 0.1vw solid black;
+    }
+    .footer-right-info .lower-part h3{
+        font-size: 1.2vw;
+        font-weight: 500;
+        margin-bottom: 1vh;
+        padding-left: 0.5vw;
+    }
+    /* copyright-part */
+    .copyright-part{
+      height: 8vh;
+      width: 100vw;
+      background-color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .copyright-part h3{
+        font-size: 1vw;
         font-weight: 500;
     
     }

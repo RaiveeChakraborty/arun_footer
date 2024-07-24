@@ -43,10 +43,12 @@ footer{
 }
 /* arun-logo */
 .footer-left-info img{
-    height: 38%;
-    width: 59%;
+    height: 12vh;
+    width: 20vw;
+    min-height: 8vh;
+        min-width: 12vw;
     object-fit: cover;
-    padding:1vh 1vw ;
+    padding:0vh 1vw ;
 }
 /* arun description */
 .footer-left-info p{
